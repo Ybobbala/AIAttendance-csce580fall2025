@@ -7,22 +7,20 @@ The project focuses on anonymizing attendance-related data and performing analys
 ## Repository Structure
 
 AIAttendance-csce580fall2025/
-│
-├── data/
-│ ├── anonymized_output # Anonymized student data (contain .xlsx files)
-│ └── combined_classes.xlsx # Combined Excel file of all 26 class sheets
-│
-├── code/
-│ ├── AIAttendance.ipynb # Main Jupyter notebook for analysis
-│ └── anonymize_data.ipynb # Notebook for anonymizing original data
-│
-└── README.md # This file
+  - data/
+    - anonymized_output (Anonymized student data- .xlsx files)
+    - combined_classes.xlsx (Combined Excel file of all 26 class sheets)
+  - code/
+    - AIAttendance.ipynb (Main Jupyter notebook for analysis)
+    - anonymize_data.ipynb (Notebook for anonymizing original data)
+  - README.md
+
 
 ## Usage
 
 1. Install dependencies (if needed)
 
-    pip install pandas numpy matplotlib openpyxl
+        pip install pandas numpy matplotlib openpyxl
 
 2. Run the notebooks in order:
 
